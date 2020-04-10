@@ -43,6 +43,7 @@ $(function () {
 
   $('#news #u1 a').on('click',function () {
     $this = $(this);
+    console.log(this);
     var title = $(this).data('title');
     $(".newsList").text(title);
   })
