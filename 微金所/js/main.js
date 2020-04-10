@@ -21,6 +21,7 @@ $(function () {
     $ulContainer.children().each(function (index, element) {
       // 元素的宽度
       width += element.clientWidth;
+      console.log(width);
     })
 
     //  解决在pc端出现滚动条
